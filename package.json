@@ -1,0 +1,53 @@
+{
+  "name": "clade-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@lens-protocol/metadata": "^1.0.5",
+    "@lens-protocol/react-web": "^2.0.0-alpha.21",
+    "@lens-protocol/wagmi": "^3.0.0-alpha.18",
+    "@lens-protocol/widgets-react": "^2.0.8",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-popover": "1.0.7",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@web3modal/wagmi": "^3.3.2",
+    "anon-aadhaar-react": "^0.1.15",
+    "axios": "^1.6.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "ethers": "^5.7.2",
+    "heroicons": "^2.0.18",
+    "lucide-react": "^0.292.0",
+    "next": "14.0.3",
+    "next-auth": "^4.24.5",
+    "prettier": "^3.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "socket.io": "^4.7.2",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "^1.19.3",
+    "wagmi": "^1.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
